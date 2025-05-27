@@ -8,7 +8,7 @@
 
 ## Background
 
-This project was originally created for my internship at Knight Cancer Research Institute. A graduate student reached out and had 4300 dictated radiology reports that contained diagnsoses for Deep Vein Thrombosis (DVT). He need an algorithm to quickly sort through the text file and provide him with an output that stated if Deep Vein Thrombosis was found within each scan. To stay compliant with HIPAA, I did not include the original text file that I used for this project and instead asked ChatGPT to generate at least 25 records of fake data to show how the code would work. The file ChatGPT_generated_fake_DVT_data.txt contains fake ChatGPT generated data. No real patient data is shared for this project.
+This project was originally created for my internship at Knight Cancer Research Institute. A graduate student reached out and had a text file with 4300 dictated radiology reports that contained diagnsoses for Deep Vein Thrombosis (DVT). He need an algorithm to quickly sort through the text file and provide him with an output that stated if Deep Vein Thrombosis was found within each scan. To stay compliant with HIPAA, I did not include the original text file that I used for the project and instead asked ChatGPT to generate at least 20 records of fake data to show how the code would work. The file ChatGPT_generated_fake_DVT_data.txt contains fake ChatGPT generated data. No real patient data is shared for this project.
 
 ## Initial Approach - Sentiment Analysis 
 
@@ -16,7 +16,7 @@ I researched various methods to analyzing large batches of text at a time. I cam
 
 ## Final Approach - Regex
 
-Once I had determined that Sentiment Analysis was not the approach I wanted for this project, I turned to Regex. I decided to continue the project in Python, despite R being my stronger language, so that I could learn more about Python. Through many iterations, I determined an extensive list of keywords that I used to find a diagnosis within the text and then look around the keyword to find words that indicated a positive diagnosis. I also checked for the presence of negating words within each phrase. If there were negating words, my algorithm considered it to be a negative diagnosis. If there were no negating words, my algorithm considered it to be a positive diagnosis. Since multiple body parts were evaluated in each scan, in order for there to be an overall positive diagnosis for DVT, each scan only needed one positive diagnosis to be considered a positive diagnosis regardless of the number of negative diagnoses. 
+Once I had determined that Sentiment Analysis was not the approach I wanted for this project, I turned to Regex. I decided to continue the project in Python, despite R being my stronger language at the time, to expand my skillset in Python. Through many iterations, I determined an extensive list of keywords that I used to locate a diagnosis within the text and then look around the keyword to find words that indicated a positive diagnosis. I also checked for the presence of negating words within each phrase. If there were negating words, my algorithm considered it to be a negative diagnosis. If there were no negating words, my algorithm considered it to be a positive diagnosis. Since multiple body parts were evaluated in each scan, in order for there to be an overall positive diagnosis for DVT, each scan only needed one positive diagnosis to be considered a positive diagnosis regardless of the number of negative diagnoses. 
 
 ## Conclusions
 
