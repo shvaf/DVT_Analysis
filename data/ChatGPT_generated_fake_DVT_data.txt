@@ -1,0 +1,26 @@
+PAT_ID,PAT_MRN_ID,ORDER_PROC_ID,ORDER_TIME,RESULT_TIME,DESCRIPTION,RESULT
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the bilateral lower extremities,Text cutoff mid sentence venous
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the right lower extremity,No thrombus identified in the right lower extremity.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the right lower extremity,Text cutoff mid sentence venous
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the bilateral lower extremities,Text cutoff mid sentence venous
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the left lower extremity,The left lower extremity venous duplex scan is unremarkable.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the bilateral lower extremities,????
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the left upper extremity,????
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the right upper extremity,Nonocclusive thrombus was detected within the right upper extremity veins.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the upper extremities,The upper extremities venous duplex scan is unremarkable.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the right lower extremity,Evidence of DVT involving the right lower extremity.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the upper extremities,Normal venous examination of the upper extremities.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the right upper extremity,The study demonstrates a chronic thrombus in the right upper extremity.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the upper extremities,Negative for deep vein thrombosis in the upper extremities.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the left upper extremity,This exam should be repeated.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the left lower extremity,Patient left before completion.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the left upper extremity,Evidence of DVT involving the left upper extremity.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the right lower extremity,Evidence of DVT involving the right lower extremity.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the left lower extremity,This exam should be repeated.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the left lower extremity,Findings are consistent with deep venous thrombosis in the left lower extremity.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the left upper extremity,Nonocclusive thrombus was detected within the left upper extremity veins.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the left upper extremity,Evidence of DVT involving the left upper extremity.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the right upper extremity,Negative for deep vein thrombosis in the right upper extremity.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the left lower extremity,Negative for deep vein thrombosis in the left lower extremity.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the bilateral lower extremities,Negative for deep vein thrombosis in the bilateral lower extremities.
+PAT###,MRN###,PROC###,20YY-MM-DD HH:MM:SS,20YY-MM-DD HH:MM:SS,Venous duplex scan of the right lower extremity,Negative for deep vein thrombosis in the right lower extremity.
