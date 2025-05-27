@@ -1,4 +1,4 @@
-# Deep Vein Thrombosis Analysis
+# Determinaton of Deep Vein Thrombosis Diagnosis using Python and Natural Language Processing
 
 ## Skills Used
 - Python
