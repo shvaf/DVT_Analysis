@@ -1,0 +1,720 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PAT_ID</th>
+      <th>PAT_MRN_ID</th>
+      <th>ORDER_PROC_ID</th>
+      <th>ORDER_TIME</th>
+      <th>RESULT_TIME</th>
+      <th>DESCRIPTION</th>
+      <th>RESULT</th>
+      <th>DVT</th>
+      <th>DVT - Positive</th>
+      <th>DVT - Negative</th>
+      <th>DVT - Unclear</th>
+      <th>Found Key Word</th>
+      <th>Venous Reflux</th>
+      <th>DVT - Conclusions</th>
+      <th>DVT - Impressions</th>
+      <th>DVT - Conclusions or Impression</th>
+      <th>Regex - Vein Mapping</th>
+      <th>count</th>
+      <th>Regex - Found Key Word</th>
+      <th>Regex - Found Positive Key Word</th>
+      <th>Regex - Found Negative Key Word</th>
+      <th>DVT - Yes</th>
+      <th>DVT - No</th>
+      <th>SVT</th>
+      <th>clots</th>
+      <th>possible</th>
+      <th>abnormal/normal</th>
+      <th>Exam_type</th>
+      <th>DVT_true_false</th>
+      <th>SVT_true_false</th>
+      <th>RowID</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>15</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the left upper extremity</td>
+      <td>Evidence of DVT involving the left upper extremity.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Left Upper body</td>
+      <td></td>
+      <td></td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the right lower extremity</td>
+      <td>Evidence of DVT involving the right lower extremity.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Right Lower body</td>
+      <td></td>
+      <td></td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the right lower extremity</td>
+      <td>Text cutoff mid sentence venous</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Right Lower body</td>
+      <td></td>
+      <td></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the right upper extremity</td>
+      <td>Nonocclusive thrombus was detected within the right upper extremity veins.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Right Upper body</td>
+      <td></td>
+      <td></td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the bilateral lower extremities</td>
+      <td>Text cutoff mid sentence venous</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the right lower extremity</td>
+      <td>Negative for deep vein thrombosis in the right lower extremity.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Right Lower body</td>
+      <td></td>
+      <td></td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the upper extremities</td>
+      <td>Negative for deep vein thrombosis in the upper extremities.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the bilateral lower extremities</td>
+      <td>????</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the bilateral lower extremities</td>
+      <td>Text cutoff mid sentence venous</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the left upper extremity</td>
+      <td>Nonocclusive thrombus was detected within the left upper extremity veins.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Left Upper body</td>
+      <td></td>
+      <td></td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the upper extremities</td>
+      <td>Normal venous examination of the upper extremities.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the right lower extremity</td>
+      <td>Evidence of DVT involving the right lower extremity.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Right Lower body</td>
+      <td></td>
+      <td></td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the left upper extremity</td>
+      <td>This exam should be repeated.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Left Upper body</td>
+      <td></td>
+      <td></td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the upper extremities</td>
+      <td>The upper extremities venous duplex scan is unremarkable.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the left lower extremity</td>
+      <td>Negative for deep vein thrombosis in the left lower extremity.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Left Lower body</td>
+      <td></td>
+      <td></td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the left lower extremity</td>
+      <td>The left lower extremity venous duplex scan is unremarkable.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Left Lower body</td>
+      <td></td>
+      <td></td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the right lower extremity</td>
+      <td>No thrombus identified in the right lower extremity.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Right Lower body</td>
+      <td></td>
+      <td></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the right upper extremity</td>
+      <td>Negative for deep vein thrombosis in the right upper extremity.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Right Upper body</td>
+      <td></td>
+      <td></td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the left upper extremity</td>
+      <td>????</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Left Upper body</td>
+      <td></td>
+      <td></td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>PAT###</td>
+      <td>MRN###</td>
+      <td>PROC###</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>20YY-MM-DD HH:MM:SS</td>
+      <td>Venous duplex scan of the left lower extremity</td>
+      <td>Patient left before completion.</td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>False</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Left Lower body</td>
+      <td></td>
+      <td></td>
+      <td>15</td>
+    </tr>
+  </tbody>
+</table>
